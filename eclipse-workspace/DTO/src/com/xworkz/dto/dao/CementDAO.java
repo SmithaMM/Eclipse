@@ -4,7 +4,7 @@ import com.xworkz.dto.CementDto;
 
 public class CementDAO {
 	
-	private CementDto[] cementContainer=new CementDto[2];
+	private CementDto[] cementContainer=new CementDto[10];
 	private int count=0;
 	
 	
@@ -13,7 +13,7 @@ public class CementDAO {
 		System.out.println("invoked CementDAO with no-arg");
 	}
 	
-    public void add(CementDto cement )
+    public void add(CementDto cement)
     {
    	 if(this.count<this.cementContainer.length && cement!=null)
    	 {

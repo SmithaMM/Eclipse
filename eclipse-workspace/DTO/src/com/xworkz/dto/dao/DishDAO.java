@@ -3,7 +3,7 @@ import com.xworkz.dto.DishDto;
 
 public class DishDAO {
 
-	private DishDto[] dishContainer=new DishDto[2];
+	private DishDto[] dishContainer=new DishDto[10];
 	private int count=0;
 	
 	public DishDAO()

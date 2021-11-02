@@ -4,7 +4,7 @@ import com.xworkz.dto.SolarDto;
 
 public class SolarDAO {
 	
-	private SolarDto[] solarContainer=new SolarDto[2];
+	private SolarDto[] solarContainer=new SolarDto[10];
 	private int count=0;
 	
 	public SolarDAO()

@@ -5,7 +5,7 @@ import com.xworkz.dto.CoffeeDto;
 
 
 public class CoffeeDAO {
-	private CoffeeDto[] coffeeContainer=new CoffeeDto[2];
+	private CoffeeDto[] coffeeContainer=new CoffeeDto[10];
 	private int count=0;
 	
 	

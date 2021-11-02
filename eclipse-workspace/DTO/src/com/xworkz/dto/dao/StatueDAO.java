@@ -3,7 +3,7 @@ import com.xworkz.dto.StatueDto;
 
 public class StatueDAO {
 	
-	private StatueDto[] statueContainer=new StatueDto[2];
+	private StatueDto[] statueContainer=new StatueDto[10];
 	private int count=0;
 	
 	public StatueDAO()
